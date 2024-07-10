@@ -6,7 +6,7 @@ const app = express();
 const port = 3000;
 
 // Configurarea cheii API Google Generative AI
-const GOOGLE_API_KEY = 'AIzaSyB6u1xzGbWannyri5XUvz09gYimb9q3Oaw';
+const GOOGLE_API_KEY = '';
 const GOOGLE_API_URL = 'https://api.generative.google.com/v1/...'; // Endpoint-ul API-ului
 
 app.use(bodyParser.json());
